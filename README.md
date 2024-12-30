@@ -4,7 +4,6 @@ The Electricity Billing System is a software solution designed to manage electri
 
 - **Customer Management**: Add, update, and delete customer records.
 - **Bill Management**: Generate and manage electricity bills.
-- **User Roles**: Role-based access for administrators and clerks.
 
 ## Features
 
@@ -12,7 +11,7 @@ The Electricity Billing System is a software solution designed to manage electri
   - CRUD operations on customer records.
 - **Bill Management**:
   - Generate, view, and manage bills.
--
+
 ## Technologies Used
 
 - **Backend**: Java (Spring Boot framework)
@@ -33,7 +32,7 @@ The Electricity Billing System is a software solution designed to manage electri
    ```
 
 3. Configure the database:
-   - Update the `application.properties` file with your database credentials:
+   - Update the `application.properties` file with database credentials:
      ```properties
      spring.datasource.url=jdbc:mysql://localhost:3306/electricity_billing
      spring.datasource.username=root
@@ -51,7 +50,7 @@ The Electricity Billing System is a software solution designed to manage electri
    mvn spring-boot:run
    ```
 
-6. Access the application at [http://localhost:8080](http://localhost:8080).
+6. Access the application at [http://localhost:8080](http://localhost:8080/customers).
 
 ## Usage Instructions
 
