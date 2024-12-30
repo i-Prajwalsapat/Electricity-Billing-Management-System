@@ -20,26 +20,6 @@ o	HTML templates for user interaction.
 •	Database Integration: 
 o	Persistent storage for customers and bills using Spring Data JPA.
 
-
-Project Structure
-
-E-bill-System
-├── src
-│   ├── main
-│   │   ├── java/Electricity/Billing/System
-│   │   │   ├── Controller        # Controllers for handling requests
-│   │   │   ├── Model             # Entity classes (Customer, Bill)
-│   │   │   ├── Repository        # Interfaces for data access
-│   │   │   ├── Service           # Business logic
-│   │   │   ├── config            # Security and application configurations
-│   │   ├── resources
-│   │       ├── templates         # HTML templates
-│   │       ├── application.properties  # Application configuration
-│   ├── test
-│       ├── java/Electricity/Billing/System
-│           ├── DemoApplicationTests.java
-├── pom.xml                        # Maven configuration
-
 Prerequisites
 
 •	Java: JDK 17 or later
