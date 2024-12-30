@@ -50,7 +50,7 @@ The Electricity Billing System is a software solution designed to manage electri
    mvn spring-boot:run
    ```
 
-6. Access the application at [http://localhost:8080](http://localhost:8080/customers).
+6. Access the application at [http://localhost:8080/customers](http://localhost:8080/customers).
 
 ## Usage Instructions
 
