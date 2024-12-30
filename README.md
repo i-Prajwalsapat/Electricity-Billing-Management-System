@@ -1,4 +1,5 @@
 Electricity Billing System
+
 The Electricity Billing System is a Java-based web application developed using Spring Boot. It is designed to manage electricity bills and customer information, providing features such as bill generation, customer management, and more.
 Features
 •	Customer Management: 
@@ -13,22 +14,23 @@ o	HTML templates for user interaction.
 •	Database Integration: 
 o	Persistent storage for customers and bills using Spring Data JPA.
 Project Structure
-E-bill-System/
-├── src/
-│   ├── main/
-│   │   ├── java/Electricity/Billing/System/
-│   │   │   ├── Controller/       # Controllers for handling requests
-│   │   │   ├── Model/            # Entity classes (Customer, Bill)
-│   │   │   ├── Repository/       # Interfaces for data access
-│   │   │   ├── Service/          # Business logic
-│   │   │   ├── config/           # Security and application configurations
-│   │   ├── resources/
-│   │       ├── templates/        # HTML templates
+E-bill-System
+├── src
+│   ├── main
+│   │   ├── java/Electricity/Billing/System
+│   │   │   ├── Controller        # Controllers for handling requests
+│   │   │   ├── Model             # Entity classes (Customer, Bill)
+│   │   │   ├── Repository        # Interfaces for data access
+│   │   │   ├── Service           # Business logic
+│   │   │   ├── config            # Security and application configurations
+│   │   ├── resources
+│   │       ├── templates         # HTML templates
 │   │       ├── application.properties  # Application configuration
-│   ├── test/
-│       ├── java/Electricity/Billing/System/
+│   ├── test
+│       ├── java/Electricity/Billing/System
 │           ├── DemoApplicationTests.java
 ├── pom.xml                        # Maven configuration
+
 Prerequisites
 •	Java: JDK 17 or later
 •	Maven: Build tool
